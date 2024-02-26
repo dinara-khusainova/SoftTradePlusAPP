@@ -1,0 +1,59 @@
+﻿<Window x:Class="SoftTradePlusAPP.View.EditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:markupExtensions="clr-namespace:SoftTradePlusAPP.MarkupExtensions"
+ xmlns:converters="clr-namespace:SoftTradePlusAPP.Converters"
+        xmlns:local="clr-namespace:SoftTradePlusAPP.View"
+        xmlns:enums="clr-namespace:SoftTradePlusAPP.Model" 
+        mc:Ignorable="d"
+        Title="EditProductWindow" Height="300" Width="300"
+        Name="EditProductWnd">
+    <Window.Resources>
+        <converters:SubscriptionPeriodToTextConverter x:Key="SubscriptionPeriodToTextConverter" />
+        <converters:SubscriptionTypeToTextConverter x:Key="SubscriptionTypeToTextConverter" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Vertical"
+HorizontalAlignment="Center"
+VerticalAlignment="Center"
+Width="200">
+            <TextBlock Text="Name"/>
+            <TextBox Name="NameBlock" Text="{Binding ProductName}"/>
+            <TextBlock Text="Price"/>
+            <TextBox Name="PriceBlock" Text="{Binding ProductPrice}"/>
+            <TextBlock Text="Type"/>
+            <ComboBox ItemsSource="{markupExtensions:EnumValues {x:Type enums:SubscriptionType}}"
+SelectedItem="{Binding SelectedSubscriptionType, Mode=TwoWay}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Converter={StaticResource SubscriptionTypeToTextConverter}}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <TextBlock Text="Subscription Period"/>
+            <ComboBox ItemsSource="{markupExtensions:EnumValues {x:Type enums:SubscriptionPeriod}}"
+      SelectedItem="{Binding SelectedSubscriptionPeriod, Mode=TwoWay}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Converter={StaticResource SubscriptionPeriodToTextConverter}}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <TextBlock Text="Client"/>
+            <ComboBox ItemsSource="{Binding AllClients}"
+           DisplayMemberPath="Name"
+            SelectedItem="{Binding ProductClient}"/>
+
+
+        </StackPanel>
+        <Button Grid.Row="1" Content="Edit Product"
+                Command="{Binding EditProduct}"
+CommandParameter="{Binding ElementName=EditProductWnd}"/>
+    </Grid>
+</Window>
