@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftTradePlusAPP", "SoftTradePlusAPP\SoftTradePlusAPP.csproj", "{AE9583FF-26B9-40AA-9853-692B23B4DFF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE9583FF-26B9-40AA-9853-692B23B4DFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9583FF-26B9-40AA-9853-692B23B4DFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9583FF-26B9-40AA-9853-692B23B4DFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9583FF-26B9-40AA-9853-692B23B4DFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08ED6A2C-6A06-4B28-9576-8626620804FD}
+	EndGlobalSection
+EndGlobal
