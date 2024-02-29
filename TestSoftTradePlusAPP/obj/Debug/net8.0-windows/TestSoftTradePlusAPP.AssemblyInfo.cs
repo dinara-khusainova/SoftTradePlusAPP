@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestSoftTradePlusAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ede06c23666b25280ba8b3837c44571d042a65b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2292320cc9a7415baff0f7f87bf5d85d83a10414")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestSoftTradePlusAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestSoftTradePlusAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
