@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D965A043-9299-4953-98AB-DCF04D246D84}|TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\testsofttradeplusapp\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D965A043-9299-4953-98AB-DCF04D246D84}|TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj|solutionrelative:testsofttradeplusapp\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D965A043-9299-4953-98AB-DCF04D246D84}|TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\testsofttradeplusapp\\testsofttradeplusapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D965A043-9299-4953-98AB-DCF04D246D84}|TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj|solutionrelative:testsofttradeplusapp\\testsofttradeplusapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D965A043-9299-4953-98AB-DCF04D246D84}|TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\testsofttradeplusapp\\testsofttradeplusapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D965A043-9299-4953-98AB-DCF04D246D84}|TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj|solutionrelative:testsofttradeplusapp\\testsofttradeplusapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\viewmodel\\datamanagervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\viewmodel\\datamanagervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\softtradeplusapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\softtradeplusapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\softtradeplusapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\softtradeplusapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\model\\datamanipulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\model\\datamanipulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|c:\\users\\xusai\\source\\repos\\softtradeplusapp1\\softtradeplusapp\\softtradeplusapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE9583FF-26B9-40AA-9853-692B23B4DFF5}|SoftTradePlusAPP\\SoftTradePlusAPP.csproj|solutionrelative:softtradeplusapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 504,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestSoftTradePlusAPP",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "RelativeDocumentMoniker": "TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "RelativeToolTip": "TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T16:37:19.209Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestSoftTradePlusAPP",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "RelativeDocumentMoniker": "TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "RelativeToolTip": "TestSoftTradePlusAPP\\TestSoftTradePlusAPP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T16:04:59.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\TestSoftTradePlusAPP\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestSoftTradePlusAPP\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\TestSoftTradePlusAPP\\UnitTest1.cs",
+              "RelativeToolTip": "TestSoftTradePlusAPP\\UnitTest1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:02:22.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SoftTradePlusAPP.csproj",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "RelativeToolTip": "SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "ViewState": "AQIAAB0AAAAAAAAAAABRwCkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-28T17:07:53.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SoftTradePlusAPP",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "RelativeToolTip": "SoftTradePlusAPP\\SoftTradePlusAPP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-28T17:46:03.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataManagerVM.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\ViewModel\\DataManagerVM.cs",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\ViewModel\\DataManagerVM.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\ViewModel\\DataManagerVM.cs",
+              "RelativeToolTip": "SoftTradePlusAPP\\ViewModel\\DataManagerVM.cs",
+              "ViewState": "AQIAAEwCAAAAAAAAAAAUwGUCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:06:24.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataManipulator.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\Model\\DataManipulator.cs",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\Model\\DataManipulator.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\Model\\DataManipulator.cs",
+              "RelativeToolTip": "SoftTradePlusAPP\\Model\\DataManipulator.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAswHEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T05:53:34.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\AssemblyInfo.cs",
+              "RelativeToolTip": "SoftTradePlusAPP\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:08:41.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeToolTip": "SoftTradePlusAPP\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:09:40.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Tests\\UnitTest1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:41:22.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SoftTradePlusAPP\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\xusai\\source\\repos\\SoftTradePlusAPP1\\SoftTradePlusAPP\\SoftTradePlusAPP\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SoftTradePlusAPP\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T16:58:17.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

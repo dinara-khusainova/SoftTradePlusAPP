@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\xusai\source\repos\SoftTradePlusAPP\SoftTradePlusAPP\obj\Debug\net8.0-windows\
+C:\Users\xusai\source\repos\SoftTradePlusAPP1\SoftTradePlusAPP\SoftTradePlusAPP\obj\Debug\net8.0-windows\
 SoftTradePlusAPP
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\xusai\source\repos\SoftTradePlusAPP\SoftTradePlusAPP\App.xaml
+C:\Users\xusai\source\repos\SoftTradePlusAPP1\SoftTradePlusAPP\SoftTradePlusAPP\App.xaml
 8-1183995101
 
 29923355725
-238-1387986293
+246373535240
 MainWindow.xaml;View\AddNewClientWindow.xaml;View\AddNewManagerWindow.xaml;View\AddNewProductWindow.xaml;View\EditClientWindow.xaml;View\EditManagerWindow.xaml;View\EditProductWindow.xaml;View\ShowMessageWindow.xaml;
 
-True
+False
 
