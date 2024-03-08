@@ -44,7 +44,7 @@ namespace SoftTradePlusAPP.Model
             string result = "Already exists";
             using (ApplicationContext db = new ApplicationContext())
             {
-                // checking exist manager
+                
                 bool IsExist = db.Managers.Any(m => m.Name == name);
                 if (!IsExist)
                 {
@@ -62,7 +62,7 @@ namespace SoftTradePlusAPP.Model
             string result = "Already exists";
             using (ApplicationContext db = new ApplicationContext())
             {
-                // checking exist client
+                
                 bool IsExist = db.Clients.Any(m => m.Name == name && m.Status == status);
                 if (!IsExist)
                 {
@@ -88,7 +88,7 @@ namespace SoftTradePlusAPP.Model
             string result = "Already exists";
             using (ApplicationContext db = new ApplicationContext())
             {
-                // checking exist product
+               
                 bool IsExist = db.Products.Any(m => m.Name == name && m.Price == price && m.Type == type);
                 if (!IsExist)
                 {
@@ -144,7 +144,6 @@ namespace SoftTradePlusAPP.Model
             }
             return result;
         }
-
 
         //Edit manager
         public static string EditManager(Manager currentManager, string newName)
@@ -208,8 +207,7 @@ namespace SoftTradePlusAPP.Model
             }
             return result;
         }
-        // Get data 
-
+       
         public static Manager GetManagerById(int id)
         {
             using (ApplicationContext db = new ApplicationContext())

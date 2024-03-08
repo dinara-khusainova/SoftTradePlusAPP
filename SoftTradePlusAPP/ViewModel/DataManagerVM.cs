@@ -17,8 +17,6 @@ namespace SoftTradePlusAPP.ViewModel
             {
                 allManagers = value;
                 NotifyPropertyChanged("AllManagers");
-
-
             }
         }
 
@@ -30,8 +28,6 @@ namespace SoftTradePlusAPP.ViewModel
             {
                 allClients = value;
                 NotifyPropertyChanged("AllClients");
-
-
             }
         }
         private List<Product> allProducts = DataManipulator.ListOfProducts();
@@ -42,27 +38,20 @@ namespace SoftTradePlusAPP.ViewModel
             {
                 allProducts = value;
                 NotifyPropertyChanged("AllProducts");
-
-
             }
         }
 
-        // Manager:
         public static string ManagerName { get; set; }
-        // Client:
+
         public static string ClientName { get; set; }
-        
         public static Manager ClientManager { get; set; }
         
-        // Product:
         public static string ProductName { get; set; }
         public static decimal ProductPrice { get; set; }
 
         public static SubscriptionType ProductType { get; set; }
         public static SubscriptionPeriod ProductSubscriptionPeriod { get; set; }
 
-
-        // list OF CLIENTS BY MANAGERS:
 
         private Manager selectedManager;
         public Manager SelectedManager
@@ -100,8 +89,6 @@ namespace SoftTradePlusAPP.ViewModel
             }
         }
 
-
-        // list OF PRODUCTS BY CLIENTS:
         private Client selectedClient;
         public Client SelectedClient
         {
@@ -138,7 +125,7 @@ namespace SoftTradePlusAPP.ViewModel
             }
         }
 
-        // list OF CLIENTS BY STATUS:
+        #region list OF CLIENTS BY STATUS
 
         private ClientStatus selectedClientStatusFilter;
         public ClientStatus SelectedClientStatusFilter
@@ -172,9 +159,9 @@ namespace SoftTradePlusAPP.ViewModel
             ClientsBySelectedClientStatus = new List<Client>(AllClients.Where(c => c.Status == SelectedClientStatusFilter));
         }
 
+        #endregion
 
 
-        
         public Client ProductClient { get; set; }
 
         private SubscriptionType _selectedSubscriptionType;
@@ -256,8 +243,6 @@ namespace SoftTradePlusAPP.ViewModel
                 );
             }
         }
-
-
 
         #region COMMANDS FOR ADDING ELEMENTS
 
@@ -349,6 +334,7 @@ namespace SoftTradePlusAPP.ViewModel
             }
         }
         #endregion
+
         #region UPDATE VIEWS
         private void SetNullValues()
         {
@@ -357,45 +343,26 @@ namespace SoftTradePlusAPP.ViewModel
 
             ClientName = null;
             ClientManager = null;
-            
-
 
             ProductName = null;
             ProductPrice = 0;
             ProductClient = null;
-
-
         }
+
         private void UpdateAllData()
         {
-            UpdateAllManagersView();
-            UpdateAllClientsView();
-            UpdateAllProductsView();
+            UpdateView(MainWindow.AllManagersView, DataManipulator.ListOfManagers());
+            UpdateView(MainWindow.AllClientsView, DataManipulator.ListOfClients());
+            UpdateView(MainWindow.AllProductsView, DataManipulator.ListOfProducts());
         }
 
-        private void UpdateAllManagersView()
+        private void UpdateView<T>(ItemsControl view, IEnumerable<T> newData)
         {
-            AllManagers = DataManipulator.ListOfManagers();
-            MainWindow.AllManagersView.ItemsSource = null;
-            MainWindow.AllManagersView.Items.Clear();
-            MainWindow.AllManagersView.ItemsSource = AllManagers;
-            MainWindow.AllManagersView.Items.Refresh();
-        }
-        private void UpdateAllClientsView()
-        {
-            AllClients = DataManipulator.ListOfClients();
-            MainWindow.AllClientsView.ItemsSource = null;
-            MainWindow.AllClientsView.Items.Clear();
-            MainWindow.AllClientsView.ItemsSource = AllClients;
-            MainWindow.AllClientsView.Items.Refresh();
-        }
-        private void UpdateAllProductsView()
-        {
-            AllProducts = DataManipulator.ListOfProducts();
-            MainWindow.AllProductsView.ItemsSource = null;
-            MainWindow.AllProductsView.Items.Clear();
-            MainWindow.AllProductsView.ItemsSource = AllProducts;
-            MainWindow.AllProductsView.Items.Refresh();
+            List<T> itemsList = newData.ToList();
+            view.ItemsSource = null;
+            view.Items.Clear();
+            view.ItemsSource = itemsList;
+            view.Items.Refresh();
         }
 
 
@@ -464,8 +431,8 @@ namespace SoftTradePlusAPP.ViewModel
 
         #endregion
 
-        #region METHODS FOR OPENING WINDOWS
-        // methods of opening windows
+        #region METHODS FOR OPENING & EDITING WINDOWS
+        
         private void OpenAddManagerWindowMethod()
         {
             AddNewManagerWindow newManagerWindow = new AddNewManagerWindow();
@@ -482,7 +449,6 @@ namespace SoftTradePlusAPP.ViewModel
             SetCenterPositionAndOpen(newProductWindow);
         }
 
-        // methods of editing windows
         private void OpenEditManagerWindowMethod(Manager manager)
         {
             EditManagerWindow editManagerWindow = new EditManagerWindow(manager);
